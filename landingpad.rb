@@ -11,14 +11,13 @@ class LandingPad < Sinatra::Base
 
   configure do
     # Admin settings - used to access contacts
-    $admin_acct_name = 'admin'
-    $admin_acct_passwd = 'admin'
+    $admin_acct_name = 'admin@modpods.com'
+    $admin_acct_passwd = 'H499Y'
 
     # Page settings - used to configure your landing page
-    $page_title = 'LandingPad.rb | Just add water landing pages'
-    $app_title = 'LandingPad.rb'
-    $app_summary = 'Get a page up and running in minutes and
-                    start collecting contacts immediately!'
+    $page_title = 'ModPods | Grow your Community'
+    $app_title = 'ModPods Growing'
+    $app_summary = 'Stay tuned with what ModPod is working on!'
     #your google analyics tracking key, if applicable
     $google_analytics_key = 'UA-XXXXXX-X'
 
